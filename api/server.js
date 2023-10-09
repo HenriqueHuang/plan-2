@@ -10,7 +10,7 @@ app.use(cors())
 mongoose.connect("mongodb+srv://Henrique:7539518462@cluster0.60sf1.mongodb.net/ChuteSal?retryWrites=true&w=majority",{
     useNewUrlParser:true,
     useUnifiedTopology:true
-}).then(()=>console.log("DB connected")).catch(console.error)
+}).then(()=>console.log("D connected")).catch(console.error)
 
 const Quadra = require("./models/Quadra")
 
