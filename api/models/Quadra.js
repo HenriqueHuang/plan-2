@@ -20,6 +20,6 @@ const QuadraSchema = new Schema({
     },
 })
 
-const Quadra = mongoose.model("Quadra",QuadraSchema)
+const Quadra = mongoose.model("Quadra",QuadraSchema,"Quadra")
 
 module.exports = Quadra

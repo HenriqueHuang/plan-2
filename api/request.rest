@@ -1,4 +1,21 @@
-GET http://localhost:3000/quadra
+GET http://localhost:3000/quadra/
 ###
 
-GET http://localhost:3000/quadra/new
+GET http://localhost:3000/quadra/64fd448dda6caaa754abcdfc
+###
+
+POST http://localhost:3000/quadra
+###
+
+DELETE http://localhost:3000/quadra/651e086ecc538deb3376f66d
+###
+
+PUT http://localhost:3000/quadra/651e086ecc538deb3376f66d
+Content-Type: application/json
+
+{
+    "cod_Quadra":"Q?",
+    "nome":"Quadra?",
+    "letra":"Q?",
+    "cod_Unidade":"u3"
+}
