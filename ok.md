@@ -90,3 +90,5 @@ void loop() {
 
   delay(5000);
 }
+
+![1](https://github.com/HenriqueHuang/plan-2/assets/99227897/b3da3411-8497-44ed-b193-3dcebbe42754)
