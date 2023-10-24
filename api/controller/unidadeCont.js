@@ -24,12 +24,14 @@ exports.getUnidades = async (req, res) => {
 };
 
 exports.createUnidade = async (req, res) => {
-  const { cod_Unidade, nome_Unidade } = req.body;
+  const { cod_Unidade, nome_Unidade,times,quadras } = req.body;
 
   try {
     const unidade = new Unidade({
       cod_Unidade: cod_Unidade,
       nome_Unidade: nome_Unidade,
+      times: times,
+      quadras:quadras 
     });
 
     await unidade.save();
