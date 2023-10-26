@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { criar, atualizar, excluir } from "../functions/crud";
 export default function Unidades() {
-  const url = "http://localhost:3000/unidade/"
+  const url = "http://ec2-50-16-59-229.compute-1.amazonaws.com:3000/unidade/"
   const [unidades, setUnidades] = useState([]);//usado para mostrar armazenar os dados buscado no banco de dados
   const [unidadeEditando, setUnidadeEditando] = useState(null);//usado para mostrar os dados no input e na lista
   const [botao, setBotao] = useState("Criar Unidade") //usado para mudar a função do botão
